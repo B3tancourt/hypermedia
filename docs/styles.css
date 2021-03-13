@@ -1,0 +1,69 @@
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 400;
+    }
+
+    body, html {
+        font-family: "Montserrat", Arial, sans-serif;
+        font-weight: 400;
+        line-height: 1.85em;
+        background-color: #000000;
+    }
+
+    main {
+        font-size: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        font-size: 4rem;
+        font-family: "Bebas Neue", cursive;
+        line-height: 1em;
+    }
+
+    
+ /*   a.register:link {
+        border: none;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 28px;
+        padding-right: 28px;
+        border-radius:12px;
+        background-color: #ae0000;
+        color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    a.register:hover {
+        font-weight: 700;
+    }
+    
+    a.register:visited {
+        border: 9px solid #000000;
+        background-color: #808080; 
+        color: #000000;
+    }
+    
+    a.register:focus {
+        border: 8px solid #ffffff;
+        outline: 2px solid black;
+    }
+    
+    a.register:active {
+        border: 2px solid #000000;
+        background-color: #e6e6e6e6;
+        color: #000000;
+        outline: none;
+    }
+
+@media screen and (min-width: 750px){
+}
