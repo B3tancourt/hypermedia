@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <style> 
+    .annoyed {
+      padding-top: .25rem;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" aria-label="Home">Home</a>
+            <a href="planning.html" aria-label="Plan your trip" style="color:black; background-color: white;">Plan Ahead</a>
+            <a href="discover.html" aria-label="Discover places">Discover</a>
+            <a href="posthike.html" aria-label="What to do after your hike">Post Hike</a>
+            <a href="getinvolved.html" aria-label="Get involved">Get Involved</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>   
+    </header>
+    <main>
+      <article>
+    <section>
+        <h2>Failing to plan is planning to fail</h2>
+        <p>As with any trip, time should always be taken to plan things out ahead of time. What do you need to bring? What should you expect? Are you packing enough water? How difficult is the hike? The last thing you want to be is unprepared or biting more than you can chew!</p>
+        <img src="images/pexels-nathan-cowley-920036.jpg" class="annoyed" alt="Photo of irritated man">
+        <p class="credit"> Photo by Nathan Cowley from Pexels</p>
+    </section>
+    <section>
+      <h2>"Alright, so What do I need?"</h2>
+      <p>Here is a great Youtube video by a channel called West Coast Elemetns that goes indepth on some solid hiking essentials!</p>
+      <div class="iframe-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/8v0TXuLRLeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+      </div>
+    </section> 
+    </article>   
+    </main>
+    <script>function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+</body>
+<footer>
+</footer>
+
+</html>

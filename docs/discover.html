@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <style> 
+    .border {
+      border: solid 1px black;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" aria-label="Home">Home</a>
+            <a href="planning.html" aria-label="Plan your trip">Plan Ahead</a>
+            <a href="discover.html" aria-label="Discover places" style="color:black; background-color: white;">Discover</a>
+            <a href="posthike.html" aria-label="What to do after your hike">Post Hike</a>
+            <a href="getinvolved.html" aria-label="Get involved">Get Involved</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>   
+    </header>
+    <main>
+      <article>
+        <section>
+          <h2>Discover whats around you</h2>
+          <p>Some of the most beautiful places to hike are within reach from Oswego. Whether it's a trip to Rice Creek, or a short drive to Ithaca, you are in the sweet spot. Check out a list of some places I've come to love below!</p>
+        </section>
+        <section class="border">
+          <h2>Rice Creek, Oswego, NY</h2>
+          <p style="font-style: italic;"> Difficulty: Beginner</p>
+          <div class="iframe-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d185556.2096944976!2d-76.65999267754556!3d43.391328861470036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d764bbe712fd37%3A0x160314b07fe3d6e!2sRice%20Creek!5e0!3m2!1sen!2sus!4v1615674986568!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </section>
+        <section class="border">
+          <h2>Robert H. Treman State Park, Ithaca, NY</h2>
+          <p style="font-style: italic;">Difficulty: <em>Intermediate</em></p>
+          <div class="iframe-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11785.349655359216!2d-76.57824676217196!3d42.39925956694649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d08740e554f5a7%3A0xd31752fb7d06305c!2sRobert%20H.%20Treman%20State%20Park!5e0!3m2!1sen!2sus!4v1615675202142!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </section>
+        <section class="border">
+          <h2>Watkins Glen State Park</h2>
+          <p style="font-style: italic;">Difficulty: Intermediate</p>
+          <div class="iframe-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47156.13963270273!2d-76.90247130841628!3d42.37963456408968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d05e55f2847597%3A0x54e6453177546a2d!2sWatkins%20Glen%20State%20Park!5e0!3m2!1sen!2sus!4v1615675732441!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </section>
+      </article>   
+    </main>
+    <script>function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+</body>
+<footer>
+</footer>
+
+</html>

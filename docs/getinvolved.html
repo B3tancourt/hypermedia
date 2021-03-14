@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <style> 
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" aria-label="Home">Home</a>
+            <a href="planning.html" aria-label="Plan your trip">Plan Ahead</a>
+            <a href="discover.html" aria-label="Discover places">Discover</a>
+            <a href="posthike.html" aria-label="What to do after your hike">Post Hike</a>
+            <a href="getinvolved.html" aria-label="Get involved"class="active">Get Involved</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>   
+    </header>
+    <main>
+      <section>
+        <h2>Looking to get involved?</h2>
+        <p>Did you know SUNY Oswego has their own outdoor club? Although there may be restrictions due to COVID, consider looking into this club in the future. This organization is the perfect way to get introduced to hiking with experienced people. Many of their trips include overnight stays, snowshowing, rockclimbing, and even whitewater rafting!</p>
+      </section>
+      <section>
+        <h3>Fill out this form to get in touch with the club!</h3>
+      </section>
+      <div class="container">
+        <form action="thankyou.html">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="mail" name="email" placeholder="Your email..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Introduce yourself!" style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    
+            
+    </main>
+    <script>function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+</body>
+<footer>
+</footer>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <style> 
+
+    .border {
+      border: solid 1px black;
+    }
+
+    ul {
+      padding-left: 1rem;
+    }
+
+    li{
+      padding-bottom: 2rem;
+    }
+
+    .line {
+      border-bottom: dotted 1px black;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" aria-label="Home">Home</a>
+            <a href="planning.html" aria-label="Plan your trip">Plan Ahead</a>
+            <a href="discover.html" aria-label="Discover places">Discover</a>
+            <a href="posthike.html" aria-label="What to do after your hike"style="color:black; background-color: white;">Post Hike</a>
+            <a href="getinvolved.html" aria-label="Get involved">Get Involved</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>   
+    </header>
+    <main>
+      <article>
+        <section>
+          <h2 class="line">Post Hike</h2>
+        </section>
+        <div class="grid-container">
+        <section id="box1">
+          <h3>So you just finished your hike, now what?</h3>
+          <img src="images/pexels-nina-uhlíková-725255.jpg" alt="Photo of woman in front of mountains">
+          <p class="credit">Photo by Nina Uhlíková from Pexels</p>
+        </section>
+        <section class="border" id="box2"> 
+          <h3 class="line">Consider this checklist when you're done with your trip!</h3>
+          <ul>
+            <li>Check for ticks</li>
+            <li>Wash off your boots</li>
+            <li>Take care of any trash</li>
+            <li>Rehydrate, always!</li>
+            <li>Strech</li>
+            <li>Get a good meal <em>(carbs, leafy greens)</em></li>
+            <li>Shower! Your spouse will thank you</li>
+          </ul>  
+        </section>
+        </div>
+      </article>
+    
+            
+    </main>
+    <script>function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+</body>
+<footer>
+</footer>
+
+</html>
